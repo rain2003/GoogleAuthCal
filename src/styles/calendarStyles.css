@@ -1,0 +1,123 @@
+body {
+  background-color: #1e1e1e; 
+  color: white;
+  font-family: Arial, sans-serif;
+}
+  
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+  
+h1 {
+  margin-top: 40px; 
+  font-size: 2.5rem;
+  color: white;
+  text-align: center; 
+}
+  
+button {
+  background-color: #4caf50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+button:hover {
+  background-color: #45a049;
+}
+  
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+  
+.date-filter-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 20px;
+}
+  
+.date-filter-container .left {
+  display: flex;
+  align-items: center;
+}
+  
+.date-filter-container .right {
+  display: flex;
+  align-items: center;
+}
+  
+.date-filter-container label {
+  margin-right: 10px;
+  font-size: 1.2rem; 
+  color: white; 
+}
+  
+.date-filter-container button {
+  margin-left: 10px;
+}
+  
+.date-filter-container input[type="date"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+  
+table {
+  width: 60%;
+  margin: 120px auto 0 auto; 
+  border-collapse: separate; 
+  border-spacing: 0; 
+  background-color: #2c2c2c; 
+  border: 1px solid #444;
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+  
+th {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #444;
+  background-color: #3e3e3e; 
+}
+  
+td {
+  padding: 10px;
+  border: 1px solid #444;
+  color: white;
+  text-align: left;
+}
+  
+tr:first-child th:first-child {
+  border-top-left-radius: 10px; 
+}
+  
+tr:first-child th:last-child {
+  border-top-right-radius: 10px; 
+}
+  
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px; 
+}
+  
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px; 
+}
+  
+tr:nth-child(even) {
+  background-color: #333;
+}
+  
+  
