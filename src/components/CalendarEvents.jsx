@@ -65,7 +65,6 @@ const CalendarEvents = () => {
     <div className="container">
       <h1>Google Calendar Events</h1>
   
-      {/* Refresh Events and Date Filter */}
       <div className="date-filter-container">
   <div className="left">
     <button className="refresh-button" onClick={fetchEvents} disabled={isFetching}>
