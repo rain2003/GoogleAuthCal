@@ -10,12 +10,12 @@ function Login() {
     const navigate = useNavigate();
 
     const onSuccess = (res) => {
-        console.log("success baby", res.profileObj);
+        console.log("successfull login", res.profileObj);
         navigate("/calendar");
     };
 
     const onFailure = (res) => {
-        console.log("failure baby", res);
+        console.log("failed login", res);
     };
 
     return (

@@ -8,6 +8,8 @@ const CalendarEvents = () => {
   const [selectedDate, setSelectedDate] = useState("");
   const [isFetching, setIsFetching] = useState(false);
 
+
+// function to fetch evets from the google calendar
   const fetchEvents = async () => {
     try {
       setIsFetching(true); 
@@ -32,6 +34,8 @@ const CalendarEvents = () => {
     }
   };
 
+
+// function to filter events via date
   const filterEventsByDate = (date) => {
     setSelectedDate(date);
   
